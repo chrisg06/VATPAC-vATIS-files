@@ -1,6 +1,8 @@
 # VATPAC-vATIS-files
 vATIS Composite files for use within the VATPAC division
 
+NOTE: There are two sets of files in this repository. If you are still using the original beta, use the beta 1 files. If you are on the newer version, use the beta 2 files. Beta 1 files will eventually be removed.
+
 
 ## How to setup
 1. To have multiple files, you will need to make a new profile in vATIS.

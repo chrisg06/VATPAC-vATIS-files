@@ -1,0 +1,274 @@
+{
+  "Name": "SYDNEY",
+  "Identifier": "YSSY",
+  "Contractions": [
+    {
+      "String": "EXP",
+      "Spoken": "EXPECT"
+    },
+    {
+      "String": "INSTR",
+      "Spoken": "INSTRUMENT"
+    },
+    {
+      "String": "CAVOK",
+      "Spoken": "CAV-OK"
+    },
+    {
+      "String": "KT",
+      "Spoken": "KNOTS"
+    },
+    {
+      "String": "GND",
+      "Spoken": "GROUND"
+    },
+    {
+      "String": "TWR",
+      "Spoken": "TOWER"
+    },
+    {
+      "String": "APCH",
+      "Spoken": "APPROACH"
+    },
+    {
+      "String": "SFC COND",
+      "Spoken": " "
+    },
+    {
+      "String": "OPR INFO",
+      "Spoken": " "
+    },
+    {
+      "String": "L AND R",
+      "Spoken": "LEFT AND RIGHT"
+    },
+    {
+      "String": "PARL",
+      "Spoken": "PARALLEL"
+    },
+    {
+      "String": "INDEP",
+      "Spoken": "INDEPENDENT"
+    },
+    {
+      "String": "OPER",
+      "Spoken": "OPERATION"
+    },
+    {
+      "String": "TIL",
+      "Spoken": "UNTIL"
+    },
+    {
+      "String": "DIR",
+      "Spoken": "DIRECTION"
+    },
+    {
+      "String": "CL",
+      "Spoken": "CENTRE LINE"
+    },
+    {
+      "String": "THRU",
+      "Spoken": "THROUGH"
+    },
+    {
+      "String": "SIMULT",
+      "Spoken": "SIMULTANEOUS"
+    },
+    {
+      "String": "PRM",
+      "Spoken": "PRECISION RUNWAY MONITORING"
+    }
+  ],
+  "AtisFrequency": 26250,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -10
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": true,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "",
+  "Presets": [
+    {
+      "Name": "CURFEW OPERATIONS",
+      "AirportConditions": "OPR INFO CURFEW RWY IN OPER TIL TIME 1900Z.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. RWY 34L FOR ARRS RWY 16R FOR DEPS. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "SODPROPS",
+      "AirportConditions": "OPR INFO SIMULT OPPOSITE DIR PARL RWY OPS IN PROG.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. RWY 34L FOR ARRS, RWY 34L AVBL FOR DEP IF REQD OR AS DIRECTED BY ATC, RWY 16L FOR ALL OTHER DEPS. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "25 ARRIVALS 16LR DEPARTURES",
+      "AirportConditions": "",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. RWY 25 FOR ARRS RWY 16 L AND R FOR DEPS. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "34LR ARRIVALS 25 DEPARTURES",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. RWY 34 L AND R FOR ARR, RWY 25 FOR DEPS. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "07 ARRIVALS 16LR DEPARTURES",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. RWY 07 FOR ARRS 16 L AND R FOR DEPS. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "16LR INDEPENDENT VISUAL APPROACH",
+      "AirportConditions": "OPR INFO PARL RWY OPS IN PROG, INDEP DEPS IN PROG.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP INDEP VIS APCH. DO NOT PASS THRU ASSIGNED RWY CL. RWYS 16 L AND R. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "16LR INSTRUMENT APPROACH",
+      "AirportConditions": "OPR INFO PARL RWY OPS IN PROG, INDEP DEPS IN PROG.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWYS 16 L AND R. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "16LR INSTRUMENT THEN INDEPENDENT VISUAL APPROACH",
+      "AirportConditions": "OPR INFO PARL RWY OPS IN PROG, INDEP DEPS IN PROG.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH, THEN INDEP VIS APCH WHEN VIS. DO NOT PASS THRU ASSIGNED RWY CL. RWYS 16 L AND R. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "16LR ILS PRM APPROACH",
+      "AirportConditions": "OPR INFO PARL RWY OPS IN PROG, INDEP DEPS IN PROG.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP ILS PRM APCH. DO NOT PASS THRU ASSIGNED RWY CL. RWYS 16 L AND R. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "34LR INDEPENDENT VISUAL APPROACH",
+      "AirportConditions": "OPR INFO PARL RWY OPS IN PROG, INDEP DEPS IN PROG.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP INDEP VIS APCH. DO NOT PASS THRU ASSIGNED RWY CL. RWYS 34 L AND R. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE]. "
+    },
+    {
+      "Name": "34LR INSTRUMENT APPROACH",
+      "AirportConditions": "OPR INFO PARL RWY OPS IN PROG, INDEP DEPS IN PROG.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH RWYS 34 L AND R. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE]. "
+    },
+    {
+      "Name": "34LR INSTRUMENT THEN INDEPENDENT VISUAL APPROACH",
+      "AirportConditions": "OPR INFO PARL RWY OPS IN PROG, INDEP DEPS IN PROG.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH, THEN INDEP VIS APCH WHEN VIS. DO NOT PASS THRU ASSIGNED RWY CL. RWYS 34 L AND R. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE]. "
+    },
+    {
+      "Name": "34LR ILS PRM APPROACH",
+      "AirportConditions": "PARL RWY OPS IN PROG, INDEP DEPS IN PROG.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP ILS PRM APCH. DO NOT PASS THRU ASSIGNED RWY CL. RWYS 34 L AND R. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "07 VISUAL APPROACH",
+      "AirportConditions": "",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. RWY 07. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "07 INSTRUMENT APPROACH",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWY 07. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "25 VISUAL APPROACH",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. RWY 25. [ARPT_COND][SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS] ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "25 INSTRUMENT APPROACH",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH RWY 25. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "16R VISUAL APPROACH",
+      "AirportConditions": "",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. RWY 16R. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "16R INSTRUMENT APPROACH",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWY 16R. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "34L VISUAL APPROACH",
+      "AirportConditions": "",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. RWY 34L. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    },
+    {
+      "Name": "34L INSTRUMENT APPROACH",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "SYDNEY TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWY 34L. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CTC WITH SYDNEY GND OR APCH NOTIFY RECEIPT OF [ATIS_CODE] "
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "SFC COND",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "DAMP",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 3,
+      "Text": "WET",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 4,
+      "Text": "WATER PATCHES",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 5,
+      "Text": "FLOODED",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [],
+  "TransitionLevels": []
+}

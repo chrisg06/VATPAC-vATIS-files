@@ -1,0 +1,121 @@
+{
+  "Id": "4358e604-96f4-4cec-b13e-d58ede54b88b",
+  "Name": "Broome ",
+  "Identifier": "YBRM",
+  "AtisType": 0,
+  "Contractions": [
+    {
+      "String": "EXP",
+      "Spoken": "EXPECT"
+    },
+    {
+      "String": "INSTR",
+      "Spoken": "INSTRUMENT"
+    },
+    {
+      "String": "CAVOK",
+      "Spoken": "CAV-OK"
+    },
+    {
+      "String": "KT",
+      "Spoken": "KNOTS"
+    },
+    {
+      "String": "GND",
+      "Spoken": "GROUND"
+    },
+    {
+      "String": "TWR",
+      "Spoken": "TOWER"
+    },
+    {
+      "String": "APCH",
+      "Spoken": "APPROACH"
+    }
+  ],
+  "AtisFrequency": 28200,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": false,
+    "MagneticDegrees": 0
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": true,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": null,
+  "Presets": [
+    {
+      "Name": "YBRM RWY 10",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "BROOME TERMINAL INFORMATION [ATIS_CODE]. [OBS_TIME]. RWY 10, [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH BROOME GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YBRM RWY 10 INSTR",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "BROOME TERMINAL INFORMATION [ATIS_CODE]. [OBS_TIME]. EXP INSTR APCH, RWY 10, [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH BROOME GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YBRM RWY 28",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "BROOME TERMINAL INFORMATION [ATIS_CODE]. [OBS_TIME]. RWY 28, [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH BROOME GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YBRM RWY 28 INSTR",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "BROOME TERMINAL INFORMATION [ATIS_CODE]. [OBS_TIME]. EXP INSTR APCH, RWY 28, [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH BROOME GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    }
+  ],
+  "AirportConditionDefinitions": [],
+  "AirportConditionsBeforeFreeText": false,
+  "NotamDefinitions": [],
+  "NotamsBeforeFreeText": false,
+  "TransitionLevels": [],
+  "UseFaaFormat": true,
+  "UseExternalAtisGenerator": false,
+  "UseNotamPrefix": true,
+  "UseTransitionLevelPrefix": true,
+  "UseMetricUnits": false,
+  "UseSurfaceWindPrefix": false,
+  "UseVisibilitySuffix": false,
+  "UseDecimalTerminology": false
+}

@@ -1,0 +1,119 @@
+{
+  "Name": "HOBART",
+  "Identifier": "YMHB",
+  "Contractions": [
+    {
+      "String": "EXP",
+      "Spoken": "EXPECT"
+    },
+    {
+      "String": "INSTR",
+      "Spoken": "INSTRUMENT"
+    },
+    {
+      "String": "CAVOK",
+      "Spoken": "CAV-OK"
+    },
+    {
+      "String": "KT",
+      "Spoken": "KNOTS"
+    },
+    {
+      "String": "GND",
+      "Spoken": "GROUND"
+    },
+    {
+      "String": "VIS",
+      "Spoken": "VISUAL"
+    },
+    {
+      "String": "TWR",
+      "Spoken": "TOWER"
+    },
+    {
+      "String": "APCH",
+      "Spoken": "APPROACH"
+    },
+    {
+      "String": "SFC COND",
+      "Spoken": " "
+    },
+    {
+      "String": "OPR INFO",
+      "Spoken": " "
+    }
+  ],
+  "AtisFrequency": 28450,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": false,
+    "MagneticDegrees": 0
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": true,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "",
+  "Presets": [
+    {
+      "Name": "YMHB 30",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "HOBART TERMINAL INFORMATION [ATIS_CODE]. EXP VIS APCH. RWY 30. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH HOBART TWR NOTIFY RECEIPT OF [ATIS_CODE]. "
+    },
+    {
+      "Name": "YMHB INSTRUMENT 30",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "HOBART TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWY 30. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH HOBART TWR NOTIFY RECEIPT OF [ATIS_CODE]. "
+    },
+    {
+      "Name": "YMHB 12",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "HOBART TERMINAL INFORMATION [ATIS_CODE]. EXP VIS APCH. RWY 12. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH HOBART TWR NOTIFY RECEIPT OF [ATIS_CODE]. "
+    },
+    {
+      "Name": "YMHB INSTRUMENT 12",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "HOBART TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWY 12. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH HOBART TWR NOTIFY RECEIPT OF [ATIS_CODE]. "
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "SFC COND",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "DAMP",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 3,
+      "Text": "WET",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 4,
+      "Text": "WATER PATCHES",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 5,
+      "Text": "FLOODED",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [],
+  "TransitionLevels": []
+}

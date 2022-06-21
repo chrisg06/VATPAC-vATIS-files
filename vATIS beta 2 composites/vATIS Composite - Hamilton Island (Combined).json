@@ -1,0 +1,92 @@
+{
+  "Id": "7d7ac5ce-843f-4cac-97cf-53ced2b5dd38",
+  "Name": "Hamilton Island",
+  "Identifier": "YBHM",
+  "AtisType": 0,
+  "Contractions": [],
+  "AtisFrequency": 33850,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": false,
+    "MagneticDegrees": 0
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": true,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": null,
+  "Presets": [
+    {
+      "Name": "YBHM RWY 14",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "HAMILTON ISLAND TERMINAL INFORMATION [ATIS_CODE]. [OBS_TIME]. RWY 14, [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH HAMILTON ISLAND GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YBHM RWY 14 RNP",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "HAMILTON ISLAND TERMINAL INFORMATION [ATIS_CODE]. [OBS_TIME]. EXP RNP APCH, RWY 14, [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH HAMILTON ISLAND GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YBHM RWY 32",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "HAMILTON TERMINAL INFORMATION [ATIS_CODE]. [OBS_TIME]. RWY 32, [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH HAMILTON ISLAND GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YBHM RWY 32 RNP",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "HAMILTON ISLAND TERMINAL INFORMATION [ATIS_CODE]. [OBS_TIME]. EXP RNP APCH, RWY 32, [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH HAMILTON ISLAND GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    }
+  ],
+  "AirportConditionDefinitions": [],
+  "AirportConditionsBeforeFreeText": false,
+  "NotamDefinitions": [],
+  "NotamsBeforeFreeText": false,
+  "TransitionLevels": [],
+  "UseFaaFormat": true,
+  "UseExternalAtisGenerator": false,
+  "UseNotamPrefix": true,
+  "UseTransitionLevelPrefix": true,
+  "UseMetricUnits": false,
+  "UseSurfaceWindPrefix": false,
+  "UseVisibilitySuffix": false,
+  "UseDecimalTerminology": false
+}
