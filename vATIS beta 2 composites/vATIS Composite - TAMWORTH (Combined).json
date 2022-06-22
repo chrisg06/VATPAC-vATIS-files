@@ -1,0 +1,191 @@
+{
+  "Id": "cec5a452-9c5c-46d0-805c-68f421bd5eac",
+  "Name": "TAMWORTH",
+  "Identifier": "YSTW",
+  "AtisType": 0,
+  "Contractions": [
+    {
+      "String": "EXP",
+      "Spoken": "EXPECT"
+    },
+    {
+      "String": "INSTR",
+      "Spoken": "INSTRUMENT"
+    },
+    {
+      "String": "CAVOK",
+      "Spoken": "CAV-OK"
+    },
+    {
+      "String": "KT",
+      "Spoken": "KNOTS"
+    },
+    {
+      "String": "GND",
+      "Spoken": "GROUND"
+    },
+    {
+      "String": "TWR",
+      "Spoken": "TOWER"
+    },
+    {
+      "String": "APCH",
+      "Spoken": "APPROACH"
+    },
+    {
+      "String": "SFC COND",
+      "Spoken": " "
+    },
+    {
+      "String": "OPR INFO",
+      "Spoken": " "
+    },
+    {
+      "String": "L AND R",
+      "Spoken": "LEFT AND RIGHT"
+    },
+    {
+      "String": "PARL",
+      "Spoken": "PARALLEL"
+    },
+    {
+      "String": "INDEP",
+      "Spoken": "INDEPENDENT"
+    },
+    {
+      "String": "OPER",
+      "Spoken": "OPERATION"
+    },
+    {
+      "String": "TIL",
+      "Spoken": "UNTIL"
+    },
+    {
+      "String": "DIR",
+      "Spoken": "DIRECTION"
+    },
+    {
+      "String": "CL",
+      "Spoken": "CENTRE LINE"
+    },
+    {
+      "String": "THRU",
+      "Spoken": "THROUGH"
+    },
+    {
+      "String": "SIMULT",
+      "Spoken": "SIMULTANEOUS"
+    }
+  ],
+  "AtisFrequency": 23800,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": false,
+    "MagneticDegrees": 0
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": true,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "",
+  "Presets": [
+    {
+      "Name": "YSTW 12LR",
+      "AirportConditions": "SIMULT PARL RWY OPERATIONS IN USE. EXP TRAFFIC ON FINAL AND OPPOSITE BASE OF THE PARL RWY.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "TAMWORTH TERMINAL INFORMATION [ATIS_CODE]. RWYS 12 L AND R FOR ARRS AND DEPS. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH TAMWORTH TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YSTW 30LR",
+      "AirportConditions": "SIMULT PARL RWY OPERATIONS IN USE. EXP TRAFFIC ON FINAL AND OPPOSITE BASE OF THE PARL RWY.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "TAMWORTH TERMINAL INFORMATION [ATIS_CODE]. RWYS 30 L AND R FOR ARRS AND DEPS. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH TAMWORTH TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YSTW INSTRUMENT 12L",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "TAMWORTH TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWY 12L. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH TAMWORTH TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YSTW INSTRUMENT 30R",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "TAMWORTH TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWY 30R. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH TAMWORTH TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "SFC COND",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "DAMP",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 3,
+      "Text": "WET",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 4,
+      "Text": "WATER PATCHES",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 5,
+      "Text": "FLOODED",
+      "Enabled": false
+    }
+  ],
+  "AirportConditionsBeforeFreeText": false,
+  "NotamDefinitions": [],
+  "NotamsBeforeFreeText": false,
+  "TransitionLevels": [],
+  "UseFaaFormat": true,
+  "UseExternalAtisGenerator": false,
+  "UseNotamPrefix": true,
+  "UseTransitionLevelPrefix": true,
+  "UseMetricUnits": false,
+  "UseSurfaceWindPrefix": false,
+  "UseVisibilitySuffix": false,
+  "UseDecimalTerminology": false
+}

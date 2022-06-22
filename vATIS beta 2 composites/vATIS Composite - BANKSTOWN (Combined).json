@@ -1,0 +1,183 @@
+{
+  "Id": "5c7d1078-7099-44b4-bb61-a4f6970e3124",
+  "Name": "BANKSTOWN",
+  "Identifier": "YSBK",
+  "AtisType": 0,
+  "Contractions": [
+    {
+      "String": "EXP",
+      "Spoken": "EXPECT"
+    },
+    {
+      "String": "INSTR",
+      "Spoken": "INSTRUMENT"
+    },
+    {
+      "String": "CAVOK",
+      "Spoken": "CAV-OK"
+    },
+    {
+      "String": "KT",
+      "Spoken": "KNOTS"
+    },
+    {
+      "String": "GND",
+      "Spoken": "GROUND"
+    },
+    {
+      "String": "TWR",
+      "Spoken": "TOWER"
+    },
+    {
+      "String": "APCH",
+      "Spoken": "APPROACH"
+    },
+    {
+      "String": "SFC COND",
+      "Spoken": " "
+    },
+    {
+      "String": "OPR INFO",
+      "Spoken": " "
+    }
+  ],
+  "AtisFrequency": 20900,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": false,
+    "MagneticDegrees": 0
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": true,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "",
+  "Presets": [
+    {
+      "Name": "YSBK 29LCR",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "BANKSTOWN TERMINAL INFORMATION [ATIS_CODE]. RWY 29R FOR ARRIVALS AND DEPARTURES, FREQUENCY 132.8 .  RWY 29L FOR CIRCUIT TRAINING, FREQUENCY 132.8 . RUNWAY 29C IN USE. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH BANKSTOWN GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YSBK 11LCR",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "BANKSTOWN TERMINAL INFORMATION [ATIS_CODE]. RWY 11L FOR ARRIVALS AND DEPARTURES, FREQUENCY 132.8 .  RWY 11R FOR CIRCUIT TRAINING, FREQUENCY 132.8 . RUNWAY 11C IN USE. [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH BANKSTOWN GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YSBK 29C",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "BANKSTOWN TERMINAL INFORMATION [ATIS_CODE]. RWY 29C FOR ALL OPERATIONS, LEFT CIRCUIT, FREQUENCY 132.8 . [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH BANKSTOWN GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YSBK INSTRUMENT 29C",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "BANKSTOWN TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWY 29C FOR ALL OPERATIONS, LEFT CIRCUIT, FREQUENCY 132.8 . [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH BANKSTOWN GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YSBK 11C",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "BANKSTOWN TERMINAL INFORMATION [ATIS_CODE]. RWY 11C FOR ALL OPERATIONS, RIGHT CIRCUIT, FREQUENCY 132.8 . [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH BANKSTOWN GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YSBK INSTRUMENT 11C",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "BANKSTOWN TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWY 11C FOR ALL OPERATIONS, RIGHT CIRCUIT, FREQUENCY 132.8 . [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH BANKSTOWN GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "SFC COND",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "DAMP",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 3,
+      "Text": "WET",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 4,
+      "Text": "WATER PATCHES",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 5,
+      "Text": "FLOODED",
+      "Enabled": false
+    }
+  ],
+  "AirportConditionsBeforeFreeText": false,
+  "NotamDefinitions": [],
+  "NotamsBeforeFreeText": false,
+  "TransitionLevels": [],
+  "UseFaaFormat": true,
+  "UseExternalAtisGenerator": false,
+  "UseNotamPrefix": true,
+  "UseTransitionLevelPrefix": true,
+  "UseMetricUnits": false,
+  "UseSurfaceWindPrefix": false,
+  "UseVisibilitySuffix": false,
+  "UseDecimalTerminology": false
+}

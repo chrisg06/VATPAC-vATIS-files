@@ -1,0 +1,155 @@
+{
+  "Id": "7961f6a8-78b7-4f99-a05b-f84071feddc8",
+  "Name": "CAMDEN",
+  "Identifier": "YSCN",
+  "AtisType": 0,
+  "Contractions": [
+    {
+      "String": "EXP",
+      "Spoken": "EXPECT"
+    },
+    {
+      "String": "INSTR",
+      "Spoken": "INSTRUMENT"
+    },
+    {
+      "String": "CAVOK",
+      "Spoken": "CAV-OK"
+    },
+    {
+      "String": "KT",
+      "Spoken": "KNOTS"
+    },
+    {
+      "String": "GND",
+      "Spoken": "GROUND"
+    },
+    {
+      "String": "TWR",
+      "Spoken": "TOWER"
+    },
+    {
+      "String": "APCH",
+      "Spoken": "APPROACH"
+    },
+    {
+      "String": "SFC COND",
+      "Spoken": " "
+    },
+    {
+      "String": "OPR INFO",
+      "Spoken": " "
+    }
+  ],
+  "AtisFrequency": 25100,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": false,
+    "MagneticDegrees": 0
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": true,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "",
+  "Presets": [
+    {
+      "Name": "YSCN 24",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "CAMDEN TERMINAL INFORMATION [ATIS_CODE]. RWY 24, RIGHT CIRCUIT, FREQUENCY 120.1 . [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH CAMDEN GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YSCN INSTRUMENT 24",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "CAMDEN TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWY 24, RIGHT CIRCUIT, FREQUENCY 120.1 . [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH CAMDEN GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YSCN 06",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "CAMDEN TERMINAL INFORMATION [ATIS_CODE]. RWY ZERO SIX, LEFT CIRCUIT, FREQUENCY 120.1 . [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH CAMDEN GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "YSCN INSTRUMENT 06",
+      "AirportConditions": null,
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "CAMDEN TERMINAL INFORMATION [ATIS_CODE]. EXP INSTR APCH. RWY ZERO SIX, LEFT CIRCUIT, FREQUENCY 120.1 . [ARPT_COND] [SURFACE_WIND] [PREVAILING_VISIBILITY] [PRESENT_WEATHER] [CLOUDS] [TEMP] [PRESSURE] [NOTAMS]. ON FIRST CONTACT WITH CAMDEN GND OR TWR NOTIFY RECEIPT OF [ATIS_CODE]. ",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "SFC COND",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "DAMP",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 3,
+      "Text": "WET",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 4,
+      "Text": "WATER PATCHES",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 5,
+      "Text": "FLOODED",
+      "Enabled": false
+    }
+  ],
+  "AirportConditionsBeforeFreeText": false,
+  "NotamDefinitions": [],
+  "NotamsBeforeFreeText": false,
+  "TransitionLevels": [],
+  "UseFaaFormat": true,
+  "UseExternalAtisGenerator": false,
+  "UseNotamPrefix": true,
+  "UseTransitionLevelPrefix": true,
+  "UseMetricUnits": false,
+  "UseSurfaceWindPrefix": false,
+  "UseVisibilitySuffix": false,
+  "UseDecimalTerminology": false
+}
